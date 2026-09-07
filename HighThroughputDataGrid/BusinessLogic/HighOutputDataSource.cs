@@ -59,6 +59,7 @@ namespace HighThroughputDataGrid.BusinessLogic
 
                 for (int i = 0; i < Stocks.Count; i++)
                 {
+                    Thread.Sleep(1);
                     ThreadPool.QueueUserWorkItem((o) =>
                     {
                         int index = (int)o;
