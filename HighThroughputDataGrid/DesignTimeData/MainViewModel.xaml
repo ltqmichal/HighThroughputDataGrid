@@ -1,7 +1,8 @@
 <vm:MainViewModel 
     xmlns:vm="clr-namespace:HighThroughputDataGrid.ViewModel" 
-    xmlns:m="clr-namespace:HighThroughputDataGrid">
-    <vm:MainViewModel.Stocks xmlns:common="clr-namespace:HighThroughputDataGrid.Common" RefreshRate="98.63" IsRunning="False">
+    xmlns:m="clr-namespace:HighThroughputDataGrid"
+    xmlns:common="clr-namespace:HighThroughputDataGrid.Common">
+    <vm:MainViewModel.Stocks>
         <m:StockCollection>
             <m:Stock Symbol="AFST" CompanyName="Amtrust Financial Service Inc" Close="26.17" High="39.13" Low="23.27" Ask="24.39" Bid="24.14" Last="24.39" Change="-1.78" Volumn="652253"/>
             <m:Stock Symbol="AFT" CompanyName="Apollo Senior Floating Rate Fund Inc" Close="16.13" High="23.91" Low="13.80" Ask="14.46" Bid="14.32" Last="14.46" Change="-1.67" Volumn="1447922"/>
